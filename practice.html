@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .container {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 200px 500px 200px;
+      grid-template-rows: 100px 500px 100px;
+      background-color: white;
+    }
+    
+    .first {
+      background-color: violet;
+      border-left: solid violet;
+      border-top-left-radius: 200px;
+    }
+    
+    .second {
+      background: lightcoral;
+    }
+    
+    .third {
+      background-color: aqua;
+      border-top-right-radius: 200px;
+    }
+    
+    .fourth {
+      background-color: lime;
+    }
+    
+    .fifth {
+      background-color: aquamarine;
+    }
+    
+    .sixth {
+      background-color: brown;
+    }
+    
+    .seven {
+      background-color: bisque;
+      border-bottom-left-radius: 200px;
+    }
+    
+    .eight {
+      background-color: palevioletred;
+    }
+    
+    .nine {
+      background-color: plum;
+      border-bottom-right-radius: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+    <div class="sixth"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+  </div>
+</body>
+
+</html>
